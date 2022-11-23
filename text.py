@@ -5,3 +5,4 @@ def talktext(wehook,secret,body):
 def talklink(wehook,secret,titel,text,Url,photo_URL):
     xiaoding = DingtalkChatbot(wehook,secret=secret)
     xiaoding.send_link(titel=titel,text=text,message_url==Url,pic_url=photo_URL)
+def cin():
